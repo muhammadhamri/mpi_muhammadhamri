@@ -1,0 +1,190 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  background-color: blueviolet;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(image/1.gif);
+}
+marquee {
+  margin: auto;
+  color: rgb(50, 240, 36);
+  font-size: 30px;
+}
+
+#sound {
+  width: 130px;
+  height: 130px;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  justify-content: center;
+
+  align-items: center;
+  display: flex;
+}
+
+#sound1 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(233, 184, 36);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#sound2 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(0, 255, 26);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#sound3 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(221, 255, 0);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#sound4 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(174, 255, 0);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#sound5 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(236, 14, 139);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#sound6 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: rgb(234, 57, 216);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-content: center;
+  border: 2px solid red;
+  flex-wrap: wrap;
+  margin: auto;
+  line-height: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: larger;
+}
+
+#sound:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound1:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound2:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound3:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound4:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound5:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+#sound6:hover {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(13, 32, 241);
+  transition: 0.3s;
+}
+
+@media (max-width: 578px) {
+  .container {
+    width: 400px;
+    height: 400px;
+    background-image: url(image/2.gif);
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    border: 0cm;
+    margin-left: 50px;
+  }
+
+  marquee {
+    margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+  }
+}
