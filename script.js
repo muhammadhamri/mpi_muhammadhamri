@@ -15,7 +15,7 @@ const sound = document.getElementById("sound");
 sound.addEventListener("click", function () {
   backsound.play();
   // Hapus event listener agar tidak memainkan ulang setiap kali ada klik
-  sound.removeEventListener("click", arguments.callee);
+  // sound.removeEventListener("click", arguments.callee);
 
   // Menambahkan event listener untuk menghentikan audio saat pengguna keluar dari halaman
   window.addEventListener("beforeunload", function () {
