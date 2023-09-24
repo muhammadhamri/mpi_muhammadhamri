@@ -169,6 +169,18 @@ a:hover {
   transition: 0.3s;
 }
 
+/* vidio start */
+.container_vidio {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  width: 1120px;
+  margin: auto;
+  gap: 3px;
+}
+
+/* vidio end */
+
 @media (max-width: 578px) {
   .container {
     width: 400px;
