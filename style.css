@@ -199,8 +199,13 @@ a:hover {
     color: aliceblue;
   }
 
+  .vidio iframe {
+    width: 470px;
+    overflow: hidden;
+  }
+
   .container_vidio {
-    max-width: 500px;
+    max-width: 470px;
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
