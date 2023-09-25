@@ -172,7 +172,7 @@ a:hover {
 /* vidio start */
 .container_vidio {
   display: flex;
-  background-color: aqua;
+  background-color: rgb(234, 244, 244);
   justify-content: center;
   width: 1120px;
   margin: auto;
