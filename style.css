@@ -198,4 +198,11 @@ a:hover {
     font-size: 20px;
     color: aliceblue;
   }
+
+  .container_vidio {
+    max-width: 500px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+  }
 }
