@@ -199,10 +199,7 @@ a:hover {
   width: 1160px;
   margin: auto;
   gap: 3px;
-}
-
-.vidio {
-  margin: auto;
+  text-align: center;
 }
 
 /* vidio end */
