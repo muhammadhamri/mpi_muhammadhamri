@@ -6,8 +6,6 @@ const sound1 = document.getElementById("sound1");
 // Menambahkan event listener untuk memainkan audio setelah klik pertama
 sound.addEventListener("click", function () {
   backsound.play();
-  // Hapus event listener agar tidak memainkan ulang setiap kali ada klik
-  sound.removeEventListener("click", arguments.callee);
 });
 
 sound1.addEventListener("click", function () {
