@@ -223,7 +223,7 @@ a:hover {
   }
 
   .vidio iframe {
-    width: 470px;
+    width: 450px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -231,7 +231,7 @@ a:hover {
   }
 
   .container_vidio {
-    max-width: 470px;
+    max-width: 450px;
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
