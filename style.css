@@ -20,6 +20,17 @@ H1 {
   background-color: blue;
   color: aliceblue;
 }
+
+h2 a {
+  text-align: center;
+  background-color: rgb(238, 27, 189);
+  width: 100px;
+  height: 40px;
+  border-radius: 20%;
+  color: aliceblue;
+  display: block;
+  line-height: 40px;
+}
 marquee {
   margin: auto;
   color: rgb(50, 240, 36);
