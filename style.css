@@ -150,7 +150,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: rgb(255, 255, 255);
   font-size: larger;
 }
 
@@ -206,11 +206,25 @@ a:hover {
 /* vidio start */
 .container_vidio {
   display: flex;
-  background-color: rgb(39, 233, 233);
   justify-content: center;
   width: 1160px;
   margin: auto;
   gap: 3px;
+  gap: 10px;
+}
+
+.container_vidio .vidio {
+  width: 250px;
+  height: 130px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  border: 2px solid red;
+  color: aliceblue;
+}
+.container_vidio .vidio a {
+  color: aliceblue;
   text-align: center;
 }
 
@@ -218,8 +232,8 @@ a:hover {
 
 @media (max-width: 578px) {
   .container {
-    width: 400px;
-    height: 400px;
+    width: 100vh;
+    height: 100vh;
     background-image: url(image/2.gif);
     background-position: center;
     background-size: cover;
@@ -234,18 +248,22 @@ a:hover {
     color: aliceblue;
   }
 
-  .vidio iframe {
-    width: 450px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-
   .container_vidio {
     max-width: 450px;
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
+    align-items: center;
+  }
+
+  .container_vidio .vidio {
+    color: rgb(218, 193, 193);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_vidio .vidio a {
+    color: rgb(237, 229, 233);
   }
 }
