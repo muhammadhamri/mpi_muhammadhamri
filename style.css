@@ -207,10 +207,11 @@ a:hover {
 .container_vidio {
   display: flex;
   justify-content: center;
-  width: 1160px;
+  width: 750px;
   margin: auto;
   gap: 3px;
-  gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .container_vidio .vidio {
@@ -249,7 +250,7 @@ a:hover {
   }
 
   .container_vidio {
-    max-width: 450px;
+    width: 430px;
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
