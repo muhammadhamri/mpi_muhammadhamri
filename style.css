@@ -31,6 +31,17 @@ h2 a {
   display: block;
   line-height: 40px;
 }
+
+h3 a {
+  width: 90px;
+  height: 40px;
+  background-color: rgb(238, 27, 189);
+  color: aliceblue;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30px;
+}
 marquee {
   margin: auto;
   color: rgb(50, 240, 36);
@@ -120,17 +131,18 @@ marquee {
 }
 .container {
   width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  background-color: rgb(234, 57, 216);
+  height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   align-content: center;
   border: 2px solid red;
   flex-wrap: wrap;
   margin: auto;
   line-height: 300px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
