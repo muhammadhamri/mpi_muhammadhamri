@@ -1,19 +1,16 @@
-const backsound = document.getElementById("backsound");
-const backsound1 = document.getElementById("backsound1");
-const sound = document.getElementById("sound");
-const sound1 = document.getElementById("sound1");
+// const backsound = document.getElementById("backsound");
 
-// Menambahkan event listener untuk memainkan audio setelah klik pertama
-sound.addEventListener("click", function () {
-  backsound.play();
-});
+// const sound = document.getElementById("sound");
+// const home = document.getElementsByClassName(".home h3 a");
 
-sound1.addEventListener("click", function () {
-  backsound1.play();
-  backsound.pause();
-  // Hapus event listener agar tidak memainkan ulang setiap kali ada klik
-  sound.removeEventListener("click", arguments.callee);
-});
+// // Menambahkan event listener untuk memainkan audio setelah klik pertama
+// sound.addEventListener("click", function () {
+//   backsound.play();
+// });
+
+// home.addEventListener("click", function () {
+//   backsound.pause();
+// });
 
 // const backsound = document.getElementById("backsound");
 // const sound = document.getElementById("sound");
@@ -42,3 +39,30 @@ sound1.addEventListener("click", function () {
 //     backsound.currentTime = 0; // Mengatur posisi audio ke awal
 //   }
 // });
+
+// const backsound = document.getElementById("backsound");
+// const sound = document.getElementById("sound");
+// const home = document.querySelector(".home h2"); // Menggunakan querySelector untuk mendapatkan elemen
+
+// // Menambahkan event listener untuk memainkan audio setelah klik pertama
+// sound.addEventListener("click", function () {
+//   backsound.play();
+// });
+
+// home.addEventListener("click", function () {
+//   backsound.pause();
+// });
+
+const backsound = document.getElementById("backsound");
+const sound = document.getElementById("sound");
+const home = document.querySelector("body h3 a"); // Menggunakan querySelector untuk mendapatkan elemen
+
+// Menambahkan event listener untuk memainkan audio setelah klik pertama
+sound.addEventListener("click", function () {
+  backsound.play();
+});
+
+// Menambahkan event listener untuk pause audio saat pengguna meninggalkan halaman
+window.addEventListener("beforeunload", function () {
+  backsound.pause();
+});
